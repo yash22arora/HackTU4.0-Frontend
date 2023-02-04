@@ -20,7 +20,13 @@ export default function Index() {
             <Input placeholder="Business name" />
             <Input placeholder="Enter Email/Phone No." />
             <Select options={[]} placeholder="Select University" />
-            <Button variant="primary" className="w-full mt-4 font-bold">
+            <Button
+              variant="primary"
+              className="w-full mt-4 font-bold"
+              onClick={() => {
+                window.location.href = "/sign-up/step1";
+              }}
+            >
               Join the fam
             </Button>
             <div className="text-xs w-full text-center mt-4">
