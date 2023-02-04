@@ -8,8 +8,8 @@ export default function Index() {
   return (
     <div className="flex flex-col w-screen h-full py-8 px-20 bg-background text-white">
       <Navbar />
-      <div className="flex flex-row w-full justify-between items-center my-16">
-        <div className="w-2/5">
+      <div className="flex flex-row w-full justify-between items-center my-16 mb-8">
+        <div className="w-1/2">
           <h1 className="text-5xl font-medium leading-tight">
             Set Up Your Campus Merchant Account
           </h1>

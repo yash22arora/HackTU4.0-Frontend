@@ -5,7 +5,7 @@ import WhiteLogo from "../../assets/WhiteLogo.png";
 
 const Signup1: React.FC = () => {
   return (
-    <div className="flex flex-col items-center h-screen py-16 w-full p-4 text-white">
+    <div className="relative flex flex-col items-center h-screen overflow-y-hidden py-16 w-full p-4 text-white">
       <div className="flex flex-row items-end justify-center mb-8">
         <img src={WhiteLogo} alt="FamPay" className="w-48" />
         <span className="text-4xl">Campus Merchant</span>
