@@ -9,6 +9,7 @@ module.exports = {
         primary: {
           bg: "#262626",
           text: "#F1B047",
+          card: "#2B2B2B",
         },
         secondary: "#F1B047",
         tertiary: "#949C9C",
