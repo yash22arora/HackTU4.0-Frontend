@@ -10,6 +10,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@fontsource/metropolis": "^4.5.3",
     "@remix-run/node": "^1.12.0",
     "@remix-run/react": "^1.12.0",
     "@remix-run/serve": "^1.12.0",
