@@ -3,6 +3,7 @@ import Input from "~/components/Input";
 import Navbar from "~/components/Navbar";
 import Select from "~/components/Select";
 import icecream from "../assets/pana.png";
+import { COLLEGE_LIST } from "./config";
 
 export default function Index() {
   return (
@@ -19,7 +20,7 @@ export default function Index() {
           <div className="rounded-xl py-8 px-16 w-full bg-foreground my-4">
             <Input placeholder="Business name" />
             <Input placeholder="Enter Email/Phone No." />
-            <Select options={[]} placeholder="Select University" />
+            <Select options={COLLEGE_LIST} placeholder="Select University" />
             <Button
               variant="primary"
               className="w-full mt-4 font-bold"

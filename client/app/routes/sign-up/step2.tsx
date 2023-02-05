@@ -4,7 +4,7 @@ import QR from "../../assets/QR.png";
 
 const Signup2: React.FC = () => {
   return (
-    <div className="relative flex flex-col items-center h-full overflow-y-hidden py-16 pb-40 w-full p-4 text-white">
+    <div className="relative flex flex-col items-center h-full overflow-y-hidden py-16 pb-48 w-full p-4 text-white">
       <div className="flex flex-row items-end justify-center mb-8">
         <img src={WhiteLogo} alt="FamPay" className="w-48" />
         <span className="text-4xl">Campus Merchant</span>
